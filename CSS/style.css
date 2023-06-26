@@ -1,0 +1,87 @@
+
+
+.container {
+    display:flexbox;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    background-color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-color: black;
+    border: 50px;
+    margin: 100px;
+    align-items:end;
+    
+    
+    
+    
+
+    
+    
+
+}
+
+.child1, .child2, .child3, .child4, .child5 {
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    row-gap: 10px;
+    display: flexbox;
+    width: 200px;
+    height: 700px;
+    
+}
+
+.child1 {
+    width:900px;
+    align-content: flex-start;
+
+}
+
+.child2 {
+    width: 400px;
+    align-self: ;
+
+}
+.portfolio {
+    background-color: black;
+    text-align:center;
+    color: white;
+}
+
+.child3 {
+width: 400px;
+}
+
+.child4 {
+    width: 850px;
+
+}
+
+.child5, .five {
+width: 500px;
+
+
+}
+
+.child1, .one {
+    width: 650px;
+}
+
+.button {
+    height: 20px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+}
+.header {
+    text-align:left;
+    
+}
+
+.ending {
+  background-color: blue;  
+  text-align: center;
+}
